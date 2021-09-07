@@ -1,4 +1,4 @@
-import { Typegoose, prop } from 'typegoose';
+import { defaultClasses, prop } from '@typegoose/typegoose';
 import { IsString, IsEmail, IsMongoId, IsOptional, IsEnum } from 'class-validator';
 
 export enum GenderType {
@@ -12,7 +12,7 @@ export enum ConditionType {
     USED = 'used',
 }
 
-export default class Product extends Typegoose {
+export default class Product extends defaultClasses.TimeStamps {
 
     @IsMongoId()
     @IsOptional()

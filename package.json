@@ -37,8 +37,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.3.0",
-    "save-dev": "^0.0.1-security",
-    "typegoose": "^5.9.1"
+    "save-dev": "^0.0.1-security"
   },
   "devDependencies": {
     "@nestjs/cli": "^8.1.1",
